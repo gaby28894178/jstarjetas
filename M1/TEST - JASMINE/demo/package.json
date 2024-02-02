@@ -1,0 +1,19 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "test jasmine",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "test-terminal": "jasmine-browser-runner runSpecs",
+    "test-browser": "jasmine-browser-runner serve"
+  },
+  "dependencies": {
+    "jasmine": "^5.1.0",
+    "jasmine-browser-runner": "^2.3.0",
+    "jasmine-core": "^5.1.1"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}

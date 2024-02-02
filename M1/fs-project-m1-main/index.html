@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Mi protafolio</title>
+  </head>
+  <body>
+    <header>
+      <h1>Mi primera pagina web</h1>
+      <nav>
+        <ul>
+          <li>Acerca de mi</li>
+          <li>Mis Tecnologias Favoritas</li>
+          <li>Mis Actividades Favoritas</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h2>Acerca de Mi</h2>
+        <p>Soy instructor y desarrolador multiplataforma</p>
+      </section>
+      <section id="favTech">
+        <h2>Mis Tecnologias Favoritas</h2>
+        <article>
+          <ul>
+            <li>
+              <h3>HTML5</h3>
+              <img src="./assets/images/html_logo.png" alt="image HTML" />
+            </li>
+            <li>
+              <h3>CSS3</h3>
+              <img src="./assets/images/css_logo.png" alt="image CSS" />
+            </li>
+            <li>
+              <h3>JavaScript</h3>
+              <img src="./assets/images/js_logo.png" alt="image JavaScript" />
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section id="favActivities">
+        <h2>Mis Actividades Favoritas</h2>
+        <form id="form">
+          <div>
+            <label for="title"> Titulo: </label>
+            <input type="text" id="title" placeholder="Leer" />
+          </div>
+          <div>
+            <label for="description"> Descripcion: </label>
+            <textarea
+              name="description"
+              id="description"
+              rows="2"
+              placeholder="Me gusta la lectura, en particular el genero de misterio"></textarea>
+          </div>
+          <div>
+            <label for="imgUrl"> Url de la imagen: </label>
+            <input type="imgUrl" id="imgUrl" placeholder="https://google.com" />
+          </div>
+          <input type="submit" value="Enviar" id="add" />
+        </form>
+        <span id="noHayAct">No hay Actividades</span>
+        <div id="container"></div>
+      </section>
+    </main>
+    <footer>
+      <p>Hecho por Felipe. Todos los derechos reservados</p>
+    </footer>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>

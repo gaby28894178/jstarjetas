@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(43, 211, 226);
+}
+
+.myClass {
+  color: red;
+  text-decoration: underline;
+}
+
+.myClass2 {
+  color: black;
+}
+
+.card {
+  background-color: red;
+}
+
+form {
+  background-color: antiquewhite;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  div {
+    margin: 10px;
+    label {
+      input {
+        width: 80%;
+        border-radius: 5px;
+      }
+    }
+  }
+  input {
+    width: 100%;
+    padding: 6px;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 5px;
+  }
+}
+
+.eye-icon {
+  position: relative;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+#submit {
+  border-radius: 10px;
+  background-color: black;
+  color: aliceblue;
+}
+#submit:hover {
+  background-color: darkblue;
+  cursor: pointer;
+}
